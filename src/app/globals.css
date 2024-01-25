@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply duration-75
+      focus-visible:outline
+      focus-visible:outline-2
+      focus-visible:outline-offset-2
+      focus-visible:outline-ulysseinside;
+  }
+
+  *::selection {
+    @apply bg-ulysseinside
+      text-slate-950
+      dark:text-slate-50;
+  }
+
+  body {
+    @apply text-slate-950
+      bg-slate-50
+      dark:text-slate-50
+      dark:bg-slate-950;
+  }
+}

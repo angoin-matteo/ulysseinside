@@ -1,0 +1,185 @@
+{
+  "app": {
+    "aboutPage": {
+      "upperTitle": "Discover us",
+      "title": "About",
+      "description": "",
+      "introduction": "",
+      "arguments": {
+        "one": {
+          "title": "Analysis",
+          "description": ""
+        },
+        "two": {
+          "title": "Training",
+          "description": ""
+        },
+        "three": {
+          "title": "Security",
+          "description": ""
+        }
+      },
+      "conclusion": "",
+      "extra": {
+        "title": "",
+        "description": ""
+      },
+      "alt": "About"
+    },
+    "adminPage": {
+      "title": "Administration"
+    },
+    "blogPage": {
+      "title": "From the blog",
+      "subTitle": "Learn how to grow your business with our expert advice."
+    },
+    "notFoundPage": {
+      "title": "Page not found",
+      "subTitle": "Sorry, we couldn't find the page you're looking for."
+    },
+    "pricingPage": {
+      "upperTitle": "Pricing",
+      "title": "",
+      "subTitle": "",
+      "offers": {
+        "callToAction": "I'm ready",
+        "perHour": "/hour",
+        "one": {
+          "title": "Basic",
+          "description": ""
+        },
+        "two": {
+          "title": "Premium",
+          "description": ""
+        }
+      }
+    },
+    "products": {
+      "analysisPage": {
+        "upperTitle": "Analyze the graphs",
+        "title": "Analysis",
+        "description": "",
+        "arguments": {
+          "one": {
+            "title": "",
+            "description": ""
+          },
+          "two": {
+            "title": "",
+            "description": ""
+          },
+          "three": {
+            "title": "",
+            "description": ""
+          }
+        },
+        "alt": "Analysis"
+      },
+      "trainingPage": {
+        "upperTitle": "Train in cryptos",
+        "title": "Training",
+        "description": "",
+        "arguments": {
+          "one": {
+            "title": "",
+            "description": ""
+          },
+          "two": {
+            "title": "",
+            "description": ""
+          },
+          "three": {
+            "title": "",
+            "description": ""
+          }
+        },
+        "alt": "Training"
+      },
+      "securityPage": {
+        "upperTitle": "Secure your cryptos",
+        "title": "Security",
+        "description": "",
+        "arguments": {
+          "one": {
+            "title": "",
+            "description": ""
+          },
+          "two": {
+            "title": "",
+            "description": ""
+          },
+          "three": {
+            "title": "",
+            "description": ""
+          }
+        },
+        "alt": "Security"
+      }
+    },
+    "rootPage": {
+      "title": "ulysseinside",
+      "subTitle": "Crypto & Web3",
+      "contactUs": "Contact us",
+      "callToAction": "Training",
+      "announcement": {
+        "title": "New training available",
+        "callToAction": "See now"
+      },
+      "stats": {
+        "one": {
+          "title": "10",
+          "description": "satisfied customers"
+        },
+        "two": {
+          "title": "40,000€",
+          "description": "generated in 6 months"
+        }
+      },
+      "chart": {
+        "legend": "BTCUSD price evolution from 2013 to 2021",
+        "tooltipFormattedName": "Price"
+      }
+    }
+  },
+  "components": {
+    "badges": {
+      "new": "New"
+    },
+    "handlers": {
+      "locales": {
+        "enAlt": "English",
+        "frAlt": "French"
+      }
+    },
+    "layout": {
+      "banner": {
+        "title": "Training",
+        "subTitle": "New training available",
+        "callToAction": "See now"
+      },
+      "footer": {
+        "copyright": "All rights reserved"
+      },
+      "header": {
+        "products": "Products",
+        "pricing": "Pricing",
+        "about": "About",
+        "blog": "Blog",
+        "analysis": {
+          "title": "Analysis",
+          "subTitle": "Analyze the graphs"
+        },
+        "training": {
+          "title": "Training",
+          "subTitle": "Train in cryptos"
+        },
+        "security": {
+          "title": "Security",
+          "subTitle": "Secure your cryptos"
+        },
+        "discoverUs": "Discover us",
+        "contactUs": "Contact us"
+      }
+    }
+  }
+}
