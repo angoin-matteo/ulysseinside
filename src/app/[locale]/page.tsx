@@ -2,6 +2,7 @@
 
 import type { Locale } from "@/types";
 
+import Link from "next/link";
 import { FaLink } from "react-icons/fa6";
 import { useDictionary } from "@/hooks/locales";
 import { Chart, ExtendedLink } from "@/components";
@@ -54,13 +55,13 @@ export default function RootPage({
               {dictionary.app.rootPage.subTitle}
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
-              <ExtendedLink
+              <Link
                 className="flex items-center px-3.5 py-2.5 gap-x-2.5 text-sm font-semibold rounded-lg shadow-lg text-slate-50 dark:text-[#1f524e] bg-ulysseinside hover:brightness-[90%]"
                 href="https://calendly.com/ulysse-boudey31/coaching-cryptomonnaies-et-web"
               >
                 {dictionary.app.rootPage.contactUs}
                 <FaLink />
-              </ExtendedLink>
+              </Link>
               <ExtendedLink
                 className="group text-sm font-semibold leading-6"
                 href="/products/training"
